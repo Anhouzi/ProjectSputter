@@ -1,0 +1,417 @@
+﻿Log file open, 10/18/17 15:12:06
+LogInit:Display: Running engine for game: ProjectSputter
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1942916632) SRandInit(1942916632).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.111942
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.18-22.12.07:899][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.18-22.12.07:899][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.18-22.12.07:926][  0]LogInit: Computer: OVER9000
+[2017.10.18-22.12.07:926][  0]LogInit: User: Matt
+[2017.10.18-22.12.07:926][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.18-22.12.07:926][  0]LogInit: High frequency timer resolution =3.410074 MHz
+[2017.10.18-22.12.07:927][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.10.18-22.12.07:927][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.18-22.12.07:927][  0]LogMemory: Process Physical Memory: 276.19 MB used, 276.19 MB peak
+[2017.10.18-22.12.07:927][  0]LogMemory: Process Virtual Memory: 260.92 MB used, 260.92 MB peak
+[2017.10.18-22.12.07:927][  0]LogMemory: Physical Memory: 8179.86 MB used,  8158.98 MB free, 16338.84 MB total
+[2017.10.18-22.12.07:927][  0]LogMemory: Virtual Memory: 644.38 MB used,  8158.98 MB free, 134217728.00 MB total
+[2017.10.18-22.12.08:391][  0]LogInit: Using OS detected language (en-US).
+[2017.10.18-22.12.08:391][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.18-22.12.08:396][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.18-22.12.09:708][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.18-22.12.09:753][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.10.18-22.12.09:753][  0]LogD3D11RHI:       4063/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.18-22.12.09:755][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.18-22.12.09:755][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.18-22.12.09:755][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.18-22.12.09:764][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.18-22.12.09:764][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.18-22.12.09:764][  0]LogWindows: EnumDisplayDevices:
+[2017.10.18-22.12.09:764][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.10.18-22.12.09:765][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.10.18-22.12.09:765][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.10.18-22.12.09:765][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.10.18-22.12.09:765][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.18-22.12.09:765][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.10.18-22.12.09:765][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.10.18-22.12.09:765][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.10.18-22.12.09:765][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.18-22.12.09:804][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.18-22.12.09:821][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.18-22.12.09:823][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Matt/Documents/Unreal Projects/ProjectSputter/Intermediate/Shaders/WorkingDirectory/52824/).
+[2017.10.18-22.12.09:823][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matt/AppData/Local/Temp/UnrealShaderWorkingDir/C6701EEF4A40049C146CD39A14BF0D67/'.
+[2017.10.18-22.12.09:823][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.18-22.12.11:474][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.18-22.12.11:704][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.18-22.12.11:937][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.18-22.12.12:163][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.18-22.12.12:382][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.18-22.12.12:638][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.18-22.12.12:885][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.18-22.12.13:119][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.18-22.12.13:337][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.18-22.12.13:557][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.18-22.12.13:794][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.18-22.12.14:005][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.18-22.12.14:247][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.18-22.12.14:491][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.18-22.12.14:726][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.18-22.12.15:203][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.18-22.12.15:203][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.18-22.12.15:416][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.18-22.12.15:803][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.18-22.12.15:937][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.18-22.12.16:168][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.18-22.12.16:405][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.18-22.12.16:677][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.18-22.12.16:947][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.18-22.12.16:947][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.18-22.12.19:740][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.18-22.12.19:829][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Matt/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.18-22.12.19:829][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.18-22.12.19:829][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Documents/Unreal Projects/ProjectSputter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.18-22.12.19:829][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.18-22.12.19:829][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matt/Documents/Unreal Projects/ProjectSputter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.18-22.12.19:829][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.18-22.12.19:845][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.18-22.12.19:859][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.18-22.12.19:868][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.18-22.12.19:868][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.18-22.12.19:869][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.18-22.12.19:869][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.18-22.12.20:317][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.18-22.12.20:396][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.18-22.12.20:889][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.18-22.12.21:270][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.18-22.12.21:513][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.18-22.12.21:513][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.18-22.12.21:513][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.18-22.12.23:084][  0]LogNetVersion: ProjectSputter , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3277046556)
+[2017.10.18-22.12.23:246][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2017.10.18-22.12.23:438][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.058512 seconds
+[2017.10.18-22.12.23:443][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.18-22.12.23:443][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.18-22.12.23:443][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.18-22.12.23:981][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.18-22.12.33:575][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.18-22.12.33:769][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.18-22.12.36:197][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.18-22.12.38:037][  0]SourceControl: Info Source control is disabled
+[2017.10.18-22.12.38:041][  0]SourceControl: Info Source control is disabled
+[2017.10.18-22.12.38:299][  0]SourceControl: Info Source control is disabled
+[2017.10.18-22.12.38:523][  0]SourceControl: Info Source control is disabled
+[2017.10.18-22.12.39:954][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2017.10.18-22.12.39:954][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2017.10.18-22.12.39:954][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2017.10.18-22.12.42:508][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.18-22.12.45:691][  0]LogEngine: Initializing Engine...
+[2017.10.18-22.12.45:692][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.18-22.12.45:879][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.18-22.12.45:879][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.18-22.12.46:571][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.18-22.12.46:583][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.12.46:596][  0]LogInit: FAudioDevice initialized.
+[2017.10.18-22.12.46:637][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Matt/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.18-22.12.46:642][  0]LogInit: Texture streaming: Enabled
+[2017.10.18-22.12.47:307][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.18-22.12.48:774][  0]LogInit: Transaction tracking system initialized
+[2017.10.18-22.12.50:737][  0]BlueprintLog: New page: Editor Load
+[2017.10.18-22.12.56:488][  0]LocalizationService: Info Localization service is disabled
+[2017.10.18-22.13.00:549][  0]LogConsoleResponse:Display: 
+[2017.10.18-22.13.00:837][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.18-22.13.00:837][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.18-22.13.00:978][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/ProjectSputter/Content/' took 0.02s
+[2017.10.18-22.13.06:793][  0]SourceControl: Info Source control is disabled
+[2017.10.18-22.13.06:793][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/Unreal Projects/ProjectSputter/Content/Levels/MissionSelect.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.18-22.13.06:794][  0]LightingResults: New page: Lighting Build
+[2017.10.18-22.13.07:026][  0]MapCheck: New page: Map Check
+[2017.10.18-22.13.07:026][  0]LightingResults: New page: Lighting Build
+[2017.10.18-22.13.07:455][  0]LogAIModule: Creating AISystem for world MissionSelect
+[2017.10.18-22.13.07:455][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.18-22.13.07:471][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.18-22.13.07:603][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.955ms to complete.
+[2017.10.18-22.13.07:603][  0]LogFileHelpers: Loading map 'MissionSelect' took 0.810
+[2017.10.18-22.13.07:869][  0]LogCollectionManager: Loaded 0 collections in 0.001835 seconds
+[2017.10.18-22.13.08:154][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/ProjectSputter/Saved/Collections/' took 0.01s
+[2017.10.18-22.13.08:154][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/ProjectSputter/Content/Developers/Matt/Collections/' took 0.01s
+[2017.10.18-22.13.08:154][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matt/Documents/Unreal Projects/ProjectSputter/Content/Collections/' took 0.01s
+[2017.10.18-22.13.08:154][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.18-22.13.08:163][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2329 classes and 491 folders.
+[2017.10.18-22.13.08:548][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.10.18-22.13.08:653][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.18-22.13.08:907][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.18-22.13.09:058][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.18-22.13.09:063][  0]LogSlate: Took 0.000385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.18-22.13.09:065][  0]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.18-22.13.09:072][  0]LogSlate: Took 0.000400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.18-22.13.09:189][  0]LogRenderer: Reallocating scene render targets to support 1680x808 NumSamples 1 (Frame:1).
+[2017.10.18-22.13.09:390][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.18-22.13.09:788][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.18-22.13.09:788][  0]LogLoad: (Engine Initialization) Total time: 66.05 seconds
+[2017.10.18-22.13.09:788][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.36 seconds
+[2017.10.18-22.13.09:788][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.18-22.13.09:788][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.18-22.13.09:808][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.18-22.13.09:815][  0]LogOcInput: OculusInput pre-init called
+[2017.10.18-22.13.09:815][  0]LogHMD: Starting GearVRController plugin
+[2017.10.18-22.13.09:840][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.18-22.13.09:919][  1]LogAssetRegistry: Asset discovery search completed in 46.6943 seconds
+[2017.10.18-22.13.09:921][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.18-22.13.09:921][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2017.10.18-22.14.03:684][685]SourceControl:Error: Error Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2017.10.18-22.24.49:371][ 69]SourceControl:Error: Error Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2017.10.18-22.24.50:604][143]SourceControl: Info Source control is disabled
+[2017.10.18-22.25.08:910][105]LogEditorViewport: Clicking Background
+[2017.10.18-22.30.37:983][ 19]SourceControl:Error: Error Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2017.10.18-22.31.22:482][959]SourceControl:Error: Error Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2017.10.18-22.31.48:050][950]SourceControl:Error: Error Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2017.10.18-22.34.31:042][766]LogEditorViewport: Clicking Background
+[2017.10.18-22.34.41:595][395]SourceControl:Error: Error Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2017.10.18-22.34.54:666][609]LogEditorViewport: Clicking Background
+[2017.10.18-22.35.02:128][ 26]SourceControl: Info On branch master
+[2017.10.18-22.35.02:129][ 26]SourceControl: Info No commits yet
+[2017.10.18-22.35.02:129][ 26]SourceControl: Info Untracked files:
+[2017.10.18-22.35.02:129][ 26]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.10.18-22.35.02:129][ 26]SourceControl: Info 	Build/
+[2017.10.18-22.35.02:129][ 26]SourceControl: Info 	Config/
+[2017.10.18-22.35.02:129][ 26]SourceControl: Info 	Content/
+[2017.10.18-22.35.02:129][ 26]SourceControl: Info 	Intermediate/
+[2017.10.18-22.35.02:129][ 26]SourceControl: Info 	ProjectSputter.uproject
+[2017.10.18-22.35.02:129][ 26]SourceControl: Info 	Saved/
+[2017.10.18-22.35.02:129][ 26]SourceControl: Info nothing added to commit but untracked files present (use "git add" to track)
+[2017.10.18-22.35.15:429][818]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.10.18-22.35.15:594][818]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/Matt/Documents/Unreal Projects/ProjectSputter/ProjectSputter.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.10.18-22.35.16:603][818]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.010 s
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: === Handled ensure: ===
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: 
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 674]
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../Users/Matt/Documents/Unreal Projects/ProjectSputter/ProjectSputter.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: Stack: 
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F002E2B6
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000EFDDB8C2
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000EFDF1E86
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000F1C3E884
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000EA335EC2
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000EA336057
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C89C390E
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C89803C5
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C897F99D
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C8994114
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000C6D40549
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000EA33A9AC
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000D32D408F
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000D3AF8D86
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor.exe!0x0000000043A3E2B2
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor.exe!0x0000000043A2F0B0
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor.exe!0x0000000043A2F12A
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor.exe!0x0000000043A40CF9
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: UE4Editor.exe!0x0000000043A425F7
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: KERNEL32.DLL!0x0000000022B82774
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: ntdll.dll!0x0000000024B70D51
+[2017.10.18-22.35.16:603][818]LogOutputDevice:Error: 
+[2017.10.18-22.35.16:605][818]LogStats:                SubmitErrorReport -  0.000 s
+[2017.10.18-22.35.17:483][818]LogStats:                    SendNewReport -  0.877 s
+[2017.10.18-22.35.17:483][818]LogStats:             FDebug::EnsureFailed -  1.889 s
+[2017.10.18-22.36.02:679][818]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.10.18-22.36.02:795][818]SourceControl:Error: Error *** Please tell me who you are.
+[2017.10.18-22.36.02:795][818]SourceControl:Error: Error Run
+[2017.10.18-22.36.02:795][818]SourceControl:Error: Error   git config --global user.email "you@example.com"
+[2017.10.18-22.36.02:795][818]SourceControl:Error: Error   git config --global user.name "Your Name"
+[2017.10.18-22.36.02:795][818]SourceControl:Error: Error to set your account's default identity.
+[2017.10.18-22.36.02:795][818]SourceControl:Error: Error Omit --global to set the identity only in this repository.
+[2017.10.18-22.36.02:795][818]SourceControl:Error: Error fatal: unable to auto-detect email address (got 'Matt@Over9000.(none)')
+[2017.10.18-22.36.02:800][818]SourceControl: Info Submitted revision.
+[2017.10.18-22.39.30:686][483]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.10.18-22.39.30:837][483]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/Matt/Documents/Unreal Projects/ProjectSputter/ProjectSputter.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.10.18-22.39.44:637][483]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.10.18-22.39.44:764][483]SourceControl: Info [master (root-commit) 0de623e] First submission to source control
+[2017.10.18-22.39.44:764][483]SourceControl: Info  2 files changed, 6 insertions(+)
+[2017.10.18-22.39.44:764][483]SourceControl: Info  create mode 100644 Content/TwinStickBP/TwinStickOverview.uasset
+[2017.10.18-22.39.44:764][483]SourceControl: Info  create mode 100644 ProjectSputter.uproject
+[2017.10.18-22.39.44:767][483]SourceControl: Info Commited [master (root-commit) 0de623e] First submission to source control.
+[2017.10.18-22.45.11:177][557]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.10.18-22.45.11:330][557]EditorErrors:Warning: Warning No assets to check in!
+[2017.10.18-22.45.24:990][375]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.10.18-22.45.25:140][375]EditorErrors:Warning: Warning No assets to check in!
+[2017.10.18-22.45.39:494][179]SourceControl:Error: Error fatal: Invalid path '/Game': No such file or directory
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorBlueprintResources/StandardMacros.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorBlueprintResources/StandardMacros.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/WorldGridMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/WorldGridMaterial.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/FloatingText/LineMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/FloatingText/LineMaterial.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineFonts/RobotoDistanceField.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineFonts/RobotoDistanceField.uasset' is outside repository
+[2017.10.18-22.45.39:494][179]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' is outside repository
+[2017.10.18-22.45.41:978][179]SourceControl: Info Already up-to-date.
+[2017.10.18-22.45.41:978][179]SourceControl: Info Current branch master is up to date.
+[2017.10.18-22.45.41:986][179]LightingResults: New page: Lighting Build
+[2017.10.18-22.45.41:987][179]MapCheck: New page: Map Check
+[2017.10.18-22.45.41:987][179]LightingResults: New page: Lighting Build
+[2017.10.18-22.45.41:997][179]LogAIModule: Creating AISystem for world Untitled
+[2017.10.18-22.45.42:000][179]LoadErrors: New page: New Map
+[2017.10.18-22.45.42:007][179]LogSlate: Took 0.001299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.18-22.45.42:208][179]LogBlueprint:Error: [Compiler PlacementGridEntry] Error This blueprint (self) is not a PipeGridEntry_C, therefore ' Target ' must have a connection.
+[2017.10.18-22.45.42:209][179]LogBlueprint:Error: [Compiler PlacementGridEntry] Error Variable node  Set GridContent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.10.18-22.45.42:213][179]LogBlueprint:Warning: [Compiler PlacementGridEntry] Warning [2018.48] Compile of PlacementGridEntry failed. 2 Fatal Issue(s) 0 Warning(s) [in 7 ms] (/Game/UserInterface/SputterUI/PlacementGridEntry.PlacementGridEntry)
+[2017.10.18-22.45.42:213][179]LogBlueprint:Warning: [Compiler PlacementGridEntry] Warning [2018.48] Compile of PlacementGridEntry failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PlacementGridEntry.PlacementGridEntry)
+[2017.10.18-22.45.42:213][179]LogBlueprint:Warning: [Compiler PlacementGridEntry] Warning [2018.48] Compile of PlacementGridEntry failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PlacementGridEntry.PlacementGridEntry)
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:ExecuteUbergraph_PlacementGridEntry.CallFunc_NotEqual_ObjectObject_ReturnValue' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:SetGridContent.CallFunc_Conv_StringToText_ReturnValue' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:PlacementEntrySetup.Temp_string_Variable' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:PlacementEntrySetup.CallFunc_Create_ReturnValue' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:PlacementEntrySetup.K2Node_MakeArray_Array' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:PlacementEntrySetup.CallFunc_GetSubstring_ReturnValue' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:PlacementEntrySetup.CallFunc_Array_Find_ReturnValue' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:PlacementEntrySetup.K2Node_SwitchString_CmpSuccess' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:PlacementEntrySetup.CallFunc_Subtract_IntInt_ReturnValue' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:PlacementEntrySetup.CallFunc_GetSubstring_ReturnValue2' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:SetIconImage.K2Node_MakeStruct_SlateColor' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:SetIconImage.K2Node_MakeStruct_SlateColor2' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:SetIconImage.K2Node_MakeStruct_SlateBrush' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:227][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'PlacementGridEntry_C:SetIconImage.K2Node_SwitchString_CmpSuccess' in the new package '/Game/UserInterface/SputterUI/PlacementGridEntry'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:330][179]LogBlueprint:Error: [Compiler InfoPanel_Pipe] Error This blueprint (self) is not a PipeGridEntry_C, therefore ' Target ' must have a connection.
+[2017.10.18-22.45.42:333][179]LogBlueprint:Warning: [Compiler InfoPanel_Pipe] Warning [2018.60] Compile of InfoPanel_Pipe failed. 1 Fatal Issue(s) 0 Warning(s) [in 5 ms] (/Game/UserInterface/SputterUI/InfoPanel_Pipe.InfoPanel_Pipe)
+[2017.10.18-22.45.42:334][179]LogBlueprint:Warning: [Compiler InfoPanel_Pipe] Warning [2018.60] Compile of InfoPanel_Pipe failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/InfoPanel_Pipe.InfoPanel_Pipe)
+[2017.10.18-22.45.42:334][179]LogBlueprint:Warning: [Compiler InfoPanel_Pipe] Warning [2018.60] Compile of InfoPanel_Pipe failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/InfoPanel_Pipe.InfoPanel_Pipe)
+[2017.10.18-22.45.42:343][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'InfoPanel_Pipe_C:PanelSetup.Temp_int_Array_Index_Variable' in the new package '/Game/UserInterface/SputterUI/InfoPanel_Pipe'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:343][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'InfoPanel_Pipe_C:PanelSetup.Temp_int_Loop_Counter_Variable' in the new package '/Game/UserInterface/SputterUI/InfoPanel_Pipe'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:343][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'InfoPanel_Pipe_C:PanelSetup.CallFunc_Add_IntInt_ReturnValue' in the new package '/Game/UserInterface/SputterUI/InfoPanel_Pipe'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:343][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'InfoPanel_Pipe_C:PanelSetup.CallFunc_Array_Length_ReturnValue' in the new package '/Game/UserInterface/SputterUI/InfoPanel_Pipe'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:343][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'InfoPanel_Pipe_C:PanelSetup.CallFunc_GetSubstring_ReturnValue' in the new package '/Game/UserInterface/SputterUI/InfoPanel_Pipe'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:343][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'InfoPanel_Pipe_C:PanelSetup.CallFunc_Less_IntInt_ReturnValue' in the new package '/Game/UserInterface/SputterUI/InfoPanel_Pipe'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:343][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'InfoPanel_Pipe_C:PanelSetup.K2Node_SwitchString_CmpSuccess' in the new package '/Game/UserInterface/SputterUI/InfoPanel_Pipe'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:381][179]LogBlueprint:Error: [Compiler EditSputter] Error Can't connect pins  Sputter Reference  and  Self : Edit Sputter Reference is not compatible with Self Reference.
+[2017.10.18-22.45.42:381][179]LogBlueprint:Error: [Compiler EditSputter] Error Can't connect pins  Self  and  Sputter Reference : Self Reference is not compatible with Edit Sputter Reference.
+[2017.10.18-22.45.42:388][179]LogBlueprint:Warning: [Compiler EditSputter] Warning [2018.65] Compile of EditSputter failed. 2 Fatal Issue(s) 0 Warning(s) [in 13 ms] (/Game/UserInterface/SputterUI/EditSputter.EditSputter)
+[2017.10.18-22.45.42:388][179]LogBlueprint:Warning: [Compiler EditSputter] Warning [2018.65] Compile of EditSputter failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/EditSputter.EditSputter)
+[2017.10.18-22.45.42:388][179]LogBlueprint:Warning: [Compiler EditSputter] Warning [2018.65] Compile of EditSputter failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/EditSputter.EditSputter)
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.Temp_int_Variable' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_LessEqual_IntInt_ReturnValue' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_Add_IntInt_ReturnValue' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.Temp_int_Variable2' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.Temp_int_Variable3' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_Multiply_IntInt_ReturnValue' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_Add_IntInt_ReturnValue2' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_LessEqual_IntInt_ReturnValue2' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_Conv_IntToString_ReturnValue' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_Concat_StrStr_ReturnValue' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_Add_IntInt_ReturnValue3' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_Concat_StrStr_ReturnValue2' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_LessEqual_IntInt_ReturnValue3' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_Add_IntInt_ReturnValue4' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_GetSlot_GridEntry' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.Temp_int_Variable4' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_Create_ReturnValue' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_AddChildToUniformGrid_ReturnValue' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_LessEqual_IntInt_ReturnValue4' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_Add_IntInt_ReturnValue5' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_Create_ReturnValue2' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:ExecuteUbergraph_EditSputter.CallFunc_AddChildToUniformGrid_ReturnValue2' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:GetSlot.CallFunc_Multiply_IntInt_ReturnValue' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:GetSlot.CallFunc_Add_IntInt_ReturnValue' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:GetSlot.CallFunc_GetChildAt_ReturnValue' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:GetSlot.K2Node_DynamicCast_AsPipe_Grid_Entry' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:GetSlot.K2Node_DynamicCast_bSuccess' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:414][179]LogUObjectGlobals:Warning: ReloadPackage failed to find a replacement object for 'EditSputter_C:DisplaySlot' in the new package '/Game/UserInterface/SputterUI/EditSputter'. Any existing references to this object will be nulled out.
+[2017.10.18-22.45.42:559][179]LogLinker: Can't find file '/Game/UserInterface/MainMenu/DefenseMissionPanel_DEADPACKAGE_13'
+[2017.10.18-22.45.42:559][179]LogLinker: Can't find file '/Game/UserInterface/MainMenu/DefenseMissionPanel_DEADPACKAGE_13'
+[2017.10.18-22.45.42:591][179]LogLinker: Can't find file '/Game/UserInterface/MainMenu/MissionSelect_DEADPACKAGE_17'
+[2017.10.18-22.45.42:591][179]LogLinker: Can't find file '/Game/UserInterface/MainMenu/MissionSelect_DEADPACKAGE_17'
+[2017.10.18-22.45.42:724][179]LogLinker: Can't find file '/Game/UserInterface/SputterUI/PipeGridEntry_DEADPACKAGE_11'
+[2017.10.18-22.45.42:724][179]LogLinker: Can't find file '/Game/UserInterface/SputterUI/PipeGridEntry_DEADPACKAGE_11'
+[2017.10.18-22.45.42:729][179]LogBlueprint:Error: [Compiler PipeGridEntry] Error Could not find a function named "DisplaySlot" in 'EditSputter_C'.
+Make sure 'EditSputter_C' has been compiled for  Display Slot
+[2017.10.18-22.45.42:749][179]LogLinker: Can't find file '/Game/UserInterface/SputterUI/EditSputter_DEADPACKAGE_16'
+[2017.10.18-22.45.42:749][179]LogLinker: Can't find file '/Game/UserInterface/SputterUI/EditSputter_DEADPACKAGE_16'
+[2017.10.18-22.45.42:785][179]LogLinker: Can't find file '/Game/UserInterface/SputterUI/InfoPanel_Pipe_DEADPACKAGE_14'
+[2017.10.18-22.45.42:785][179]LogLinker: Can't find file '/Game/UserInterface/SputterUI/InfoPanel_Pipe_DEADPACKAGE_14'
+[2017.10.18-22.45.42:796][179]LogLinker: Can't find file '/Game/UserInterface/SputterUI/PlacementGridEntry_DEADPACKAGE_12'
+[2017.10.18-22.45.42:797][179]LogLinker: Can't find file '/Game/UserInterface/SputterUI/PlacementGridEntry_DEADPACKAGE_12'
+[2017.10.18-22.45.42:908][179]LogBlueprint:Warning: [Compiler PipeGridEntry] Warning [2019.17] Compile of PipeGridEntry failed. 1 Fatal Issue(s) 0 Warning(s) [in 190 ms] (/Game/UserInterface/SputterUI/PipeGridEntry_DEADPACKAGE_11.PipeGridEntry)
+[2017.10.18-22.45.42:909][179]LogBlueprint:Warning: [Compiler PipeGridEntry] Warning [2019.17] Compile of PipeGridEntry failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PipeGridEntry_DEADPACKAGE_11.PipeGridEntry)
+[2017.10.18-22.45.42:909][179]LogBlueprint:Warning: [Compiler PipeGridEntry] Warning [2019.17] Compile of PipeGridEntry failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PipeGridEntry_DEADPACKAGE_11.PipeGridEntry)
+[2017.10.18-22.45.42:909][179]LogBlueprint:Warning: [Compiler PipeGridEntry] Warning [2019.17] Compile of PipeGridEntry failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PipeGridEntry_DEADPACKAGE_11.PipeGridEntry)
+[2017.10.18-22.45.42:909][179]LogBlueprint:Warning: [Compiler PipeGridEntry] Warning [2019.17] Compile of PipeGridEntry failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PipeGridEntry_DEADPACKAGE_11.PipeGridEntry)
+[2017.10.18-22.45.42:909][179]LogBlueprint:Warning: [Compiler PipeGridEntry] Warning [2019.17] Compile of PipeGridEntry failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PipeGridEntry_DEADPACKAGE_11.PipeGridEntry)
+[2017.10.18-22.45.43:168][179]LogBlueprint:Error: [Compiler InfoPanel_Pipe] Error This blueprint (self) is not a PipeGridEntry_C, therefore ' Target ' must have a connection.
+[2017.10.18-22.45.43:267][179]LogBlueprint:Warning: [Compiler InfoPanel_Pipe] Warning [2019.53] Compile of InfoPanel_Pipe failed. 1 Fatal Issue(s) 0 Warning(s) [in 107 ms] (/Game/UserInterface/SputterUI/InfoPanel_Pipe.InfoPanel_Pipe)
+[2017.10.18-22.45.43:268][179]LogBlueprint:Warning: [Compiler InfoPanel_Pipe] Warning [2019.53] Compile of InfoPanel_Pipe failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/InfoPanel_Pipe.InfoPanel_Pipe)
+[2017.10.18-22.45.43:268][179]LogBlueprint:Warning: [Compiler InfoPanel_Pipe] Warning [2019.53] Compile of InfoPanel_Pipe failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/InfoPanel_Pipe.InfoPanel_Pipe)
+[2017.10.18-22.45.43:268][179]LogBlueprint:Warning: [Compiler InfoPanel_Pipe] Warning [2019.53] Compile of InfoPanel_Pipe failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/InfoPanel_Pipe.InfoPanel_Pipe)
+[2017.10.18-22.45.43:268][179]LogBlueprint:Warning: [Compiler InfoPanel_Pipe] Warning [2019.53] Compile of InfoPanel_Pipe failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/InfoPanel_Pipe.InfoPanel_Pipe)
+[2017.10.18-22.45.43:268][179]LogBlueprint:Warning: [Compiler InfoPanel_Pipe] Warning [2019.53] Compile of InfoPanel_Pipe failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/InfoPanel_Pipe.InfoPanel_Pipe)
+[2017.10.18-22.45.43:292][179]LogBlueprint:Error: [Compiler PlacementGridEntry] Error This blueprint (self) is not a PipeGridEntry_C, therefore ' Target ' must have a connection.
+[2017.10.18-22.45.43:293][179]LogBlueprint:Error: [Compiler PlacementGridEntry] Error Variable node  Set GridContent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.10.18-22.45.43:401][179]LogBlueprint:Warning: [Compiler PlacementGridEntry] Warning [2019.67] Compile of PlacementGridEntry failed. 2 Fatal Issue(s) 0 Warning(s) [in 122 ms] (/Game/UserInterface/SputterUI/PlacementGridEntry.PlacementGridEntry)
+[2017.10.18-22.45.43:401][179]LogBlueprint:Warning: [Compiler PlacementGridEntry] Warning [2019.67] Compile of PlacementGridEntry failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PlacementGridEntry.PlacementGridEntry)
+[2017.10.18-22.45.43:401][179]LogBlueprint:Warning: [Compiler PlacementGridEntry] Warning [2019.67] Compile of PlacementGridEntry failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PlacementGridEntry.PlacementGridEntry)
+[2017.10.18-22.45.43:401][179]LogBlueprint:Warning: [Compiler PlacementGridEntry] Warning [2019.67] Compile of PlacementGridEntry failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PlacementGridEntry.PlacementGridEntry)
+[2017.10.18-22.45.43:401][179]LogBlueprint:Warning: [Compiler PlacementGridEntry] Warning [2019.67] Compile of PlacementGridEntry failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PlacementGridEntry.PlacementGridEntry)
+[2017.10.18-22.45.43:402][179]LogBlueprint:Warning: [Compiler PlacementGridEntry] Warning [2019.67] Compile of PlacementGridEntry failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/UserInterface/SputterUI/PlacementGridEntry.PlacementGridEntry)
+[2017.10.18-22.45.43:407][179]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.18-22.45.43:664][179]LogBlueprint:Error: [Compiler PlacementGridEntry] Error This blueprint (self) is not a PipeGridEntry_C, therefore ' Target ' must have a connection.
+[2017.10.18-22.45.43:664][179]LogBlueprint:Error: [Compiler PlacementGridEntry] Error Variable node  Set GridContent  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.10.18-22.45.44:147][179]LogAIModule: Creating AISystem for world MissionSelect
+[2017.10.18-22.45.44:165][179]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Documents/Unreal Projects/ProjectSputter/Content/Levels/MissionSelect.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.18-22.45.44:165][179]LightingResults: New page: Lighting Build
+[2017.10.18-22.45.44:166][179]LoadErrors: New page: Loading map: MissionSelect.umap
+[2017.10.18-22.45.44:166][179]MapCheck: New page: Map Check
+[2017.10.18-22.45.44:166][179]LightingResults: New page: Lighting Build
+[2017.10.18-22.45.44:174][179]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.18-22.45.44:210][179]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.18-22.45.44:345][179]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 134.353ms to complete.
+[2017.10.18-22.45.44:345][179]LogFileHelpers: Loading map 'MissionSelect' took 0.181
+[2017.10.18-22.45.51:677][609]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.10.18-22.45.51:827][609]EditorErrors:Warning: Warning No assets to check in!
